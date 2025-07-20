@@ -1,0 +1,42 @@
+{
+  "name": "piepay-backend",
+  "version": "1.0.0",
+  "description": "PiePay Backend API for processing Flipkart offers and calculating discounts",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "api",
+    "piepay"
+  ],
+  "author": "Ankur Bansal",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "joi": "^17.13.3",
+    "mongoose": "^8.16.4",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.31.0",
+    "jest": "^30.0.4",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2",
+    "supertest": "^7.1.3"
+  }
+}
